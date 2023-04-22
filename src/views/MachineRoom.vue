@@ -43,11 +43,6 @@ onMounted(() => {
 
   renderer.setClearColor("white", 1);
 
-  // 网格
-
-  let gridHelper = new GridHelper(50, 20);
-  scene.add(gridHelper);
-
   // 箭头
 
   const arrowXHelper = new ArrowHelper(
