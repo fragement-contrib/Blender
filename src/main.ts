@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 
 import './styles/normalize.css'
 
@@ -12,5 +11,4 @@ const app = createApp(App)
 
 app
     .use(router)
-    .use(createPinia())
     .mount('#app')

@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/fragement-contrib/blender#readme",
   "dependencies": {
-    "pinia": "^2.0.27",
     "three": "^0.150.1",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2"
